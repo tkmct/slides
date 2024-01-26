@@ -5,10 +5,6 @@ class: text-center
 highlighter: shikiji
 lineNumbers: false
 info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-
-  Learn more at [Sli.dev](https://sli.dev)
 drawings:
   persist: false
 transition: slide-left
@@ -17,20 +13,22 @@ mdc: true
 ---
 
 # ZKP meets MPC
+## Introduction to IZK
 
-How things work together?
-
-<!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
--->
 
 ---
 
-## Agenda
+# Agenda
 
 <br>
 
 <Toc maxDepth="1"></Toc>
+
+---
+
+# What is Interactive Zeroknowlege Proofs?
+
+MPCで使われるプロトコルを活用してZKPを実現する -> IZK
 
 ---
 
