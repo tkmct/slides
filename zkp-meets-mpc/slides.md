@@ -13,7 +13,7 @@ mdc: true
 ---
 
 # ZKP meets MPC
-## Introduction to IZK
+## Introduction to Vole based IZK
 
 
 ---
@@ -26,13 +26,26 @@ mdc: true
 
 ---
 
-# What is Interactive Zeroknowlege Proofs?
+# What is IZK?
 
-MPCで使われるプロトコルを活用してZKPを実現する -> IZK
+IZK is interactive zeroknowledge proofs
+
+- MPCで使われるプロトコルを活用してZKPを実現する
+- Memory efficientなZKPプロトコルを実現
 
 ---
 
-# Recap What is ZKP?
+## 既存のzkSNARKsの課題
+
+- Proverの効率
+-> Proverのメモリ効率・計算量
+
+---
+
+## Commit and prove paradigm
+
+値をcommitしてproveする
+
 
 ---
 
@@ -40,26 +53,19 @@ MPCで使われるプロトコルを活用してZKPを実現する -> IZK
 
 ---
 
-# How they work together?
-
----
-
-# ZKP for MPC
-
----
-
-# MPC for ZKP
-
----
-
-# ZKP and MPC
-
 ---
 
 # Conclusion
 
 ---
-layout: center
+
+# Reference
+- https://blog.chain.link/interactive-zero-knowledge-proofs/
+- https://blog.chain.link/computation-complexity-metrics/
+- https://blog.chain.link/commit-and-prove-zks/
+- https://blog.chain.link/vole-based-zk/
+- https://eprint.iacr.org/2021/076
+
 ---
 
 Thank you!
